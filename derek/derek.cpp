@@ -49,5 +49,17 @@ int main () {
 //    vNums[1] = 2;
 //    vNums.push_back(3);
 
+//    vector<string> words;
+//    words.push_back("Hello");
+//    words.push_back("World");
+//
+//    for (int i = 0; i < words.size(); ++i) {
+//        cout << words[i] << endl;
+//    }
+//
+//    for (auto i: words) {
+//        cout << i << endl;
+//    }
+
     return 0;
 }
