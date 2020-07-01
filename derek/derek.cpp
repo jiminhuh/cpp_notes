@@ -61,5 +61,32 @@ int main () {
 //        cout << i << endl;
 //    }
 
+//    srand(time(NULL));
+//    int secretNumber = rand() % 11;
+//    int guess = 0;
+//
+//    do {
+//        cout << "Guess the Number : " << endl;
+//        cin >> guess;
+//        if (guess > secretNumber) {
+//            cout << "Too Big." << endl;
+//        } else if (guess < secretNumber) {
+//            cout << "Too Small." << endl;
+//        }
+//    } while (secretNumber != guess);
+//    cout << "You Guessed it!" << endl;
+
+//    string str1 = "I am a string!";
+//
+//    cout << str1[0] << endl;
+//    cout << str1.back() << endl;
+//    cout << str1.length() << endl;
+//    string str4 = str1 + " Hello";
+//    str4.append("!");
+//    str4.erase(5, str4.length()-1);
+//    cout << str4.find("string");
+
+
+
     return 0;
 }
