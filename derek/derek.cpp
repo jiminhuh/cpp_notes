@@ -14,6 +14,11 @@
 
 using namespace std;
 
+
+double addNumbers(double num1, double num2);
+
+void AssignAge3(int* pAge);
+
 //int imGlobal = 0;
 //const double PI = 3.141;
 int main () {
@@ -86,7 +91,24 @@ int main () {
 //    str4.erase(5, str4.length()-1);
 //    cout << str4.find("string");
 
+    printf("%.1f + %.1f = %.1f\n", 5.0, 4.0, addNumbers(5.0,4.0));
+
+    int age2 = 43;
+    AssignAge3(&age2);
+    cout << age2 << endl;
 
 
     return 0;
+}
+
+double addNumbers (double num1 = 0, double num2 = 0) {
+    return num1, num2;
+}
+
+//void AssignName() {
+//    string name = "Jimin";
+//}
+
+void AssignAge3(int* pAge) {
+    *pAge = 24;
 }
